@@ -42,3 +42,7 @@ class GlobalTests(unittest.TestCase):
     def test_mergevalues_both_empty(self):
         'if both are empty, return the empty string'
         1/0
+
+    def test_mergevalues_none_as_empty_string(self):
+        'the function does not distinguish between None and the empty string'
+        1/0
