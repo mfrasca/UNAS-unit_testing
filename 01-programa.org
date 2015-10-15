@@ -1,0 +1,44 @@
+* el día de hoy
+** un error común ayer
+*** trabajar como root
+    ¡NO LO HAGAN!
+    trabajando como root, los archivos creados o modificados pertenecen a root.
+    no vas a tener derecho de modificarlos como usuario.
+*** sudo su
+    mejor `sudo lo-que-sea-pero-no-su`
+    `sudo su` los deja como root y puede ser que uno no se acuerde ser root y siga trabajando como root.
+    `sudo su - <username>` esto sí es útil y no es peligroso.
+    siempre miren quien eres: whoami
+    y si el prompt termina en $ ó #
+*** solucionar problemas haciendose root
+    si el elaborador no permite algo, no siempre se soluciona haciendose root.
+    si unix no le permite algo, hay una razón.
+    a root todo le está permitido, hasta `rm -fr /`
+
+** terminar la tarea práctica imprescindible
+*** ayer hicimos
+    instalamos git y python-virtualenv
+    tomamos una cuenta github
+    miramos https://github.com/mfrasca/UNAS-unit_testing
+**** de esto cada uno tiene:
+     fork - su propio repositorio en github
+     clone - la copia del repositorio en el elaborador
+
+*** virtualenv
+    crear un ambiente virtual
+    activarlo
+    install --upgrade pip
+    cual versión de pip tenemos?
+    desactivarlo
+    cual versión de pip tenemos?
+    activar otra vez el ambiente virtual
+    instalar nosetests
+    ejecutar las pruebas con nosetests
+
+** Presentación del Software Bauble
+   software libre - GPL
+   para colecciones botánicas - (http://www.bgci.org/resources/Living_collections/)
+   conceptos mínimos de taxonomía
+
+** theory: tests first. practice: so sorry
+   http://bauble.readthedocs.org/en/latest/devdl.html#adding-missing-unit-tests
