@@ -25,11 +25,17 @@
 import unittest
 
 
+from unas.globfunc import mergevalues
+
+
 class GlobalTests(unittest.TestCase):
 
     def test_mergevalues_equal(self):
         'if the values are equal, return it'
-        1/0
+        self.assertEquals(mergevalues(1, 1), '1')
+        self.assertEquals(mergevalues('1', '1'), '1')
+        self.assertEquals(mergevalues('1', 1), '1')
+        self.assertEquals(mergevalues(1, '1'), '1')
 
     def test_mergevalues_conflict(self):
         'if they conflict, return both'

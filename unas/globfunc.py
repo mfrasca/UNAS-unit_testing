@@ -31,4 +31,6 @@ def mergevalues(first, second, merge_conflicts="%s|%s"):
 
     """
 
+    if first == second:
+        return str(first)
     pass
