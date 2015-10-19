@@ -16,7 +16,7 @@ emacs
   *   https://es.wikipedia.org/wiki/Emacs
 
 * refcard
-\
+
   * las refcards no son sólo para emacs, todas son buenas,
   * https://www.gnu.org/software/emacs/refcards/
   
@@ -54,10 +54,10 @@ python
 
 trabajar en equipo
 ------------------------
-   dos personas, un archivo: caos.
-   una persona, dos programas: igual caos.
 * software de manejo versiones
 
+  * dos personas, un archivo: caos.
+  * una persona, dos programas: igual caos.
   * CVS, subversion, git - solución de conflictos
   
 * servicios de versiones
